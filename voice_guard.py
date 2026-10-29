@@ -62,17 +62,6 @@ class VoiceGuard:
                 },
                 "anomalies_flagged": anomalies
             }
+
         except Exception as e:
-            import traceback
-            traceback.print_exc()
-            return {"error": str(e) if str(e) else type(e).__name__, "verdict": "ERROR"}
-
-      if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python voice_guard.py <path_to_audio_file>")
-        sys.exit(1)
-
-    file_path = sys.argv[1]
-    guard = VoiceGuard()
-    result = guard.verify(file_path)
-    print(json.dumps(result, indent=4))
+            return {"error": str(e), "verdict": "ERROR"}
