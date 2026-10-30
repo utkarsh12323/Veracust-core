@@ -4,7 +4,7 @@ import os
 from voice_guard import VoiceGuard
 
 app = FastAPI(
-    title="VoiceGuard Enterprise API",
+    title=" Acoustiq Labs",
     description="On-Premises & Cloud Voice Authenticity Gateway",
     version="1.0.0"
 )
