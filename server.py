@@ -20,7 +20,6 @@ app = FastAPI(
     """,
     version="2.0.0"
 )
-)
 
 guard = VoiceGuard()
 
