@@ -7,8 +7,7 @@ from voice_guard import VoiceGuard
 
 app = FastAPI(
     title="Acoustiq Labs Enterprise API",
-    description="
-    Tri-Vector Real-Time Audio Authenticity Gateway
+    description="Tri-Vector Real-Time Audio Authenticity Gateway
      by: Utkarsh Dixit  
     Founder & Lead Systems Engineer | Acoustiq Labs",
     version="2.1.0"
