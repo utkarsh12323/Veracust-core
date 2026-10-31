@@ -6,11 +6,9 @@ from datetime import datetime
 from voice_guard import VoiceGuard
 
 app = FastAPI(
-    title="Acoustiq Labs Enterprise API",
-    description="Tri-Vector Real-Time Audio Authenticity Gateway
-     by: Utkarsh Dixit  
-    Founder & Lead Systems Engineer | Acoustiq Labs",
-    version="2.1.0"
+     title="Acoustiq Labs Enterprise API",
+    description="Tri-Vector Audio Authenticity Gateway | Engineered by Utkarsh Dixit (Founder & Lead Systems Engineer)",
+    version="2.0.0"
 )
 
 guard = VoiceGuard()
