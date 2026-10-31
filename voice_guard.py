@@ -1,6 +1,5 @@
 """
-Acoustiq Labs - Tri-Vector Audio Authenticity Engine
-                 by- Utkarsh Dixit (Production v2.0)
+Acoustiq Labs - Tri-Vector Audio Authenticity Engine || by- Utkarsh Dixit (Production v2.0)
 Layer 1: Cryptographic & Metadata Signature Probing
 Layer 2: STFT Geometric Frame Discontinuity & Phase Lattice Analysis
 Layer 3: Ambient Room-Air Entropy & Biomechanical Pitch Jitter
