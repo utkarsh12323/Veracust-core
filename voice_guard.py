@@ -1,6 +1,6 @@
 """
 =============================================================================
-Acoustiq Labs - Tri-Vector Audio Authenticity Engine (Production v2.0)
+Veracust - Tri-Vector Audio Authenticity Engine (Production v2.0)
 Architecture & Core Algorithms by: Utkarsh Dixit
 Founder & Lead Systems Engineer | Acoustiq Labs
 
